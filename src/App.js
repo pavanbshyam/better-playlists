@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
 let defaultStyle = {
   Color: '#222'
@@ -46,7 +45,7 @@ class App extends Component {
     let headerStyle = {color: green, 'font-size': '50px'}
     return (
       <div className="App">
-      <h1>Title</h1>
+      <h1 style={{...defaultStyle, 'font-size': '54px'}}>Title</h1>
       <Aggregate/>
       <Aggregate/>
       <Filter/>
